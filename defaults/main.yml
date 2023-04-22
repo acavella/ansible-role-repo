@@ -1,10 +1,4 @@
 ---
-chrony_ntp_servers: []
-chrony_ntp_pools: []
-chrony_ntp_peers:
-  - 192.168.0.11 iburst
-  - 192.168.0.12 iburst
-chrony_is_local: true
-chrony_allow_networks:
-  - 192.168.0.0/16
-chrony_keyfile: /etc/chrony.keys
+repo_ids: []
+repo_gpg_check: true
+repo_package_location: /data/
