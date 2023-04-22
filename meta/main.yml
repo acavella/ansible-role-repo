@@ -1,10 +1,9 @@
 ---
 dependencies: []
 galaxy_info:
-  role_name: chrony
+  role_name: repo
   author: acavella
-  description: Chrony daemon installation and configure for Linux.
-  company: "altCipher"
+  description: RPM Repository Mirror.
   license: "license (GPLv3)"
   min_ansible_version: "2.9"
   platforms:
@@ -14,6 +13,8 @@ galaxy_info:
         - "8"
         - "9"
   galaxy_tags:
-    - chrony
-    - timesync
-    - ntp
+    - rpm
+    - repository
+    - dnf
+    - yum
+    - httpd
