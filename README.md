@@ -1,10 +1,10 @@
-# Ansible Role: Chrony
+# Ansible Role: Repo
 
-![CI](https://github.com/acavella/ansible-role-chrony/actions/workflows/ci.yml/badge.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/acavella/ansible-role-chrony)
-![GitHub repo size](https://img.shields.io/github/repo-size/acavella/ansible-role-chrony)
+![CI](https://github.com/acavella/ansible-role-repo/actions/workflows/ci.yml/badge.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/acavella/ansible-role-repo)
+![GitHub repo size](https://img.shields.io/github/repo-size/acavella/ansible-role-repo)
 
-An Ansible Role to install and configure the chrony daemon on Linux.
+An Ansible Role to install and configure a custom RPM repository mirror.
 
 ## Requirements
 
@@ -37,7 +37,10 @@ chrony_keyfile: /etc/chrony.keys
 
 ## Dependencies
 
-None.
+| Name | Version | Notes |
+| ----- | ----- | ----- |
+| reposync | 4.x | NA |
+| httpd | 2.4 | NA |
 
 ## Example Playbook
 
